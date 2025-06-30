@@ -1216,6 +1216,10 @@ footer {
     padding: 0.5rem;
   }
 
+  .video-player-container {
+    padding-bottom: 100%; /* Change to 1:1 Aspect Ratio for mobile (16 / 16 * 100%) */
+  }
+
   /* Responsive for short video page */
   .short-video-title {
     font-size: 1.5rem;
